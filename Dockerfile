@@ -1,4 +1,4 @@
-FROM hub.docker.com/eboraas/apache-php
+FROM docker.io/eboraas/apache-php:latest
 
 ADD sources.list  /etc/apt/sources.list
 RUN apt-get update
